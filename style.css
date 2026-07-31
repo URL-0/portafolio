@@ -1,0 +1,31 @@
+:root {
+    --color-principal: #2c3e50;
+    --color-acento: #3498db;
+    --color-texto: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--color-principal);
+    color: white;
+    padding: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
