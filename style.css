@@ -70,3 +70,17 @@ section {
     color: var(--color-acento);
     
 }
+
+.boton-cv {
+    display: inline-block;
+    background-color: var(--color-acento);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.boton-cv:hover {
+    background-color: var(--color-principal);
+}
