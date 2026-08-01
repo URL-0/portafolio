@@ -52,3 +52,21 @@ section {
     padding: 6px 14px;
     border-radius: 20px;
 }
+
+.lista-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.tarjeta-proyecto {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tarjeta-proyecto a {
+    color: var(--color-acento);
+    
+}
