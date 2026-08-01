@@ -29,7 +29,9 @@ header nav a {
 header nav {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
+
 
 section {
     padding: 60px 20px ; 
@@ -83,4 +85,11 @@ section {
 
 .boton-cv:hover {
     background-color: var(--color-principal);
+}
+
+.lista-contacto {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
